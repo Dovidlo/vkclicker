@@ -4,3 +4,7 @@
 
 // Оптимизация
 onkeydown = e => e.keyUp == ' ' ? ClickCountSpan.innerText++ : 0
+
+function GO(){
+    ClickCountSpan.innerText++
+}
